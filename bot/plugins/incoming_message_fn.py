@@ -64,7 +64,7 @@ async def incoming_start_message_f(bot, update):
             user = await client.get_chat_member(UPDATES_CHANNEL, message.chat.id)
             if user.status == "kicked":
                 await message.reply_text(
-                    text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/Mo_Tech_Group).",
+                    text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/Baagurujoinaguu).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -95,12 +95,12 @@ async def incoming_start_message_f(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('🗣️Group', url='https://t.me/mo_Tech_Group'),
-                    InlineKeyboardButton('📢Channel', url='https://t.me/Mo_Tech_YT/176'),
-                    InlineKeyboardButton('✳️Source', url='https://github.com/MRK-YT/MT-VideoCompress')
+                    InlineKeyboardButton('🗣️Group', url='https://t.me/Baagurujoinaguu'),
+                    InlineKeyboardButton('📢Channel', url='https://t.me/BAGURUJOINAGUUKANNADAMOVIES_17'),
+                    InlineKeyboardButton('JOIN NOW ', url='https://t.me/BAGURUJOINAGUUKANNADAMOVIES_17')
                 ],
                 [
-                    InlineKeyboardButton('🖥️Tutorial Video🖥️', url='https://youtu.be/lb-JJLqyww4')
+                    InlineKeyboardButton('JOIN NOW CHANNEL', url='https://t.me/BAGURUJOINAGUUKANNADAMOVIES_17')
                 ]
             ]
         ),
@@ -140,7 +140,7 @@ async def incoming_compress_message_f(bot, update):
         except Exception:
             await bot.send_message(
                 chat_id=update.chat.id,
-                text="Something went Wrong. Contact my [Support Group](https://t.me/Mo_Tech_Group).",
+                text="Something went Wrong. Contact my [Support Group](https://t.me/Baagurujoinaguu).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
